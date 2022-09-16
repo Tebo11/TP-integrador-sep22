@@ -1,0 +1,28 @@
+.navbar-custom{
+    background-color: rgb(65, 65, 65);
+    height: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+.navbar-brand{
+    color: white;
+}
+a{
+    text-decoration: none;
+    margin: .5rem;
+}
+.nav-linkw{
+    color: white;
+}
+
+.nav-linkg{
+    color: grey;
+}
+
+.nav-linkv{
+    color: green
+}
+
+
+
