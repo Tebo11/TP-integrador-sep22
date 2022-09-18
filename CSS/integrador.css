@@ -27,7 +27,9 @@ a{
 .bgAguas{
     position:relative;
     display: inline-block;
+    
 }
+
 .texto1{
     position: absolute;
     top: 30%;
@@ -41,7 +43,6 @@ a{
     right: 5%;
     text-align: right;
 }
-
 
 
 .btn-trans{
@@ -143,7 +144,7 @@ a{
 }
 
 .honolulu{
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(65,65,65);
 }
 
 .imagenhono{
@@ -162,3 +163,33 @@ a{
     cursor:pointer;
     overflow: hidden;
 }
+
+.textareaa{
+    width: 150%;
+    height: 100%;
+        
+}
+
+.mini{
+    font-size: x-small;
+    color: grey;
+    text-align: left;
+}
+
+.enviar{
+    background-color: olivedrab;
+    color: #fff;
+    border: none;
+    width: 48%;
+}
+
+.navfooter{
+    background-color: #315a6b;
+    text-align: center;
+}
+
+.navfooteritem{
+    margin-left: 15%;
+    
+}
+

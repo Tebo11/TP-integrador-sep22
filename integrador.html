@@ -46,7 +46,7 @@
   <main>
     
     <div class="bgAguas text-white">
-      <img src="imagenes_integrador_front/hawaii.jpg" alt="hawaii" width="100%" height="70%">
+      <img src="imagenes_integrador_front/hawaiio.jpg" alt="hawaii" width="100%" height="70%">
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold texto1">Conf BsAs</h1>
       <div class="row">
@@ -111,11 +111,65 @@
           </div>
         </div>
     </div>
-
-
+    <br>
+    <div class="oradores">
+      <h6>CONVIERTETE EN UN</h5>
+      <h2>ORADOR</h3>
+      <h6>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</h5>
+        <form action="nuevoorador.html" method="get">
+        <div class="row">
+          <div class="col-md mb-3"></div>
+          <div class="col-md mb-3">
+            <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre" required>
+          </div>
+          <div class="col-md mb-3">
+            <input type="text" name="apellido" id="apellido" class="form-control" placeholder="Apellido" required>
+          </div> 
+          <div class="col-md mb-3"></div>
+        </div> 
+        <div class="row">
+          <div class="col-md mb-3"></div>
+          <div class="col-md mb-6">
+            <textarea name="asunto" id="asunto" class="form-control textareaa" placeholder="Sobre qué quieres hablar?" required></textarea>
+          <p class="mini">Recuerada incluir un título para tu charla</p>
+          </div>
+          <div class="col-md mb-3"></div>
+        </div>
+        <br>
+        <div class="row">
+          <input type="submit" value="Enviar" class="enviar">
+        </div>  
+      </form>
+    </div>
   </main>
+  <br>
   <footer>
     <!-- place footer here -->
+    <nav class="navbar navbar-expand-sm navbar-dark navfooter">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0 navfooteritem">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" aria-current="page">Preguntas frecuentes <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" aria-current="page">Contáctanos <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#" aria-current="page">Prensa <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#" aria-current="page">Conferencias <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#" aria-current="page">Terminos y condiciones <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#" aria-current="page">Privacidad <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#" aria-current="page">Estudiantes <span class="visually-hidden">(current)</span></a>
+                </li>
+            </ul>
+    </nav>
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
